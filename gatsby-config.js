@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "portfolio",
+    title: "Volatile Commerce",
+    description: "Get Fastest Ecommerce Web App in the world the with Volatile Commerce"
   },
   plugins: [
     "gatsby-plugin-sharp",
