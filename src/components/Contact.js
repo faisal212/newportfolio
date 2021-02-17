@@ -34,7 +34,7 @@ const Contact = ({ contactImg }) => {
       });
   };
   return (
-    <section className="contact-one">
+    <section className="contact-one" id="contact-us">
       <img src={ContactBgShape} className="contact-one__bg-shape-1" alt="" />
       <div className="container">
         <div className="row">

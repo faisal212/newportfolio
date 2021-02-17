@@ -17,11 +17,26 @@ module.exports = {
       __key: "images",
     },
     {
+      resolve: `gatsby-plugin-google-fonts-with-attributes`,
+      options: {
+        fonts: [
+ 
+          `Quicksand\:300,400,500,600,700` ,
+
+        ],
+        display: 'swap',
+        attributes: {
+          rel: "stylesheet preload prefetch",
+        },
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "src/images/icon.png",
       },
     },
+    
     "gatsby-plugin-offline",
 
   ],

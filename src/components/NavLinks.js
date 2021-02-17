@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const NavLinks = () => {
@@ -59,25 +58,17 @@ const NavLinks = () => {
           Screens
         </ScrollLink> 
       </li>
-      <li className="dropdown">
-        <Link href="/blog">
-          <>
-            <a>News</a>
-            <i className="fa fa-angle-down" onClick={handleDropdownStatus}></i>
-          </>
-        </Link>
-        <ul className={dropdownStatus === true ? "active" : null}>
-          <li>
-            <Link href="/blog">
-              <a>News</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog-post">
-              <a>News Details</a>
-            </Link>
-          </li>
-        </ul>
+      <li>
+        <ScrollLink
+          activeClass="current"
+          to="contact-one"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
+          Contact Us
+        </ScrollLink> 
       </li>
     </ul>
   );

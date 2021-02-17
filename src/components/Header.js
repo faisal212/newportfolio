@@ -62,8 +62,8 @@ const HeaderHome = (props) => {
           <NavLinks />
         </div>
         <div className="main-nav__right">
-          <a href="#" className={`thm-btn ${props.btnClass}`}>
-            <span>Download App</span>
+          <a href="https://rawaayatclothing.com/" target="_blank" className={`thm-btn ${props.btnClass}`}>
+            <span>Check App</span>
           </a>
         </div>
       </div>

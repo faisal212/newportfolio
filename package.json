@@ -19,6 +19,7 @@
     "bootstrap": "^4.5.0",
     "gatsby": "^2.32.3",
     "gatsby-image": "^2.11.0",
+    "gatsby-plugin-google-fonts-with-attributes": "^1.0.7",
     "gatsby-plugin-manifest": "^2.12.0",
     "gatsby-plugin-offline": "^3.10.0",
     "gatsby-plugin-purgecss": "^5.0.0",
@@ -26,8 +27,6 @@
     "gatsby-plugin-sharp": "^2.14.1",
     "gatsby-source-filesystem": "^2.11.0",
     "gatsby-transformer-sharp": "^2.12.0",
-    "next": "9.3.2",
-    "next-images": "^1.4.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-countup": "^4.3.3",
@@ -38,5 +37,8 @@
     "react-scroll": "^1.8.0",
     "react-visibility-sensor": "^5.1.1",
     "swiper": "^6.0.4"
-  }
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
