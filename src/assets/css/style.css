@@ -878,10 +878,12 @@ a:visited {
   padding-top: 280px;
   position: relative;
 }
+/* purgecss start ignore */
 
 [class*="banner-one__bg-shape-"] {
   position: absolute;
 }
+/* purgecss end ignore */
 
 .banner-one__bg-shape-1 {
   left: 0;

@@ -395,6 +395,7 @@
     padding-bottom: 0;
   }
 }
+/* purgecss start ignore */
 
 @media (max-width: 480px) {
   .banner-one__content br {
@@ -410,6 +411,7 @@
     display: none;
   }
 }
+/* purgecss end ignore */
 
 @media (max-width: 425px) {
   .mailchimp-one .inner-container {
