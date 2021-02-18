@@ -1,8 +1,8 @@
 import React from "react";
+import GatsbyImage from "gatsby-image";
 
-import FooterLogo from "../assets/images/logo-1-1.png";
 
-const Footer = () => {
+const Footer = ({logo}) => {
   return (
     <div>
      
@@ -11,14 +11,13 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-4">
-                <div className="footer-widget footer-widget__about">
+                <div className="footer-widget footer-widget__about" style={{width:129}}>
                   <a href="index.html">
-                    <img src={FooterLogo} width="129" alt="" />
+                    <GatsbyImage fluid={logo.childImageSharp.fluid} alt="" />
                   </a>
                   <p>
-                    Lorem Ipsum is simply dummy text the <br /> printing and
-                    setting industry. Lorm Ipsum
-                    <br /> has been the text ever.
+                    We develop fastest Ecommerce Web Apps
+              
                   </p>
                 </div>
               </div>
@@ -101,7 +100,7 @@ const Footer = () => {
         </div>
         <div className="site-footer__bottom">
           <div className="container text-center">
-            <p>© copyright 2021 by Flashcommerce.com</p>
+            <p>© copyright 2021 by volatilecommerce.com</p>
           </div>
         </div>
       </footer>

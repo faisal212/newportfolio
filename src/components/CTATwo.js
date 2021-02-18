@@ -15,7 +15,7 @@ const CTATwo = () => {
               <BlockTitle
                 textAlign="left"
                 paraText="Feature List"
-                titleText={`Flash Commerce Providing You \n Best Features`}
+                titleText={`volatile commerce Providing You \n Best Features`}
               />
               <div className="cta-two__icon-wrap">
                 <div className="cta-two__icon-single">
@@ -42,7 +42,7 @@ const CTATwo = () => {
                   dummy text of the printing laborum perspiciatis unde.
                 </p>
               </div>
-              <a href="#" className="thm-btn cta-two__btn">
+              <a href="https://tawakalautos.com/" target="_blank" className="thm-btn cta-two__btn">
                 <span>Discover More</span>
               </a>
             </div>

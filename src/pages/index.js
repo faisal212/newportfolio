@@ -32,7 +32,7 @@ import FAQ from "../components/FAQ";
 const HomePage = ({data}) => (
   <div>
 
-    <Layout pageTitle="Flash Commerce | Home Page">
+    <Layout pageTitle="volatile commerce | Home Page">
       <Header
         btnClass="main-nav__btn"
         extraClassName="site-header-one__fixed-top"
@@ -47,8 +47,8 @@ const HomePage = ({data}) => (
      
       <AppScreen appScreens={data.appScreens} />
       <FAQ />
-      <Contact contactImg={data.contactImg} />
-      <Footer /> 
+      <Contact contactImg={data.contactImg}   />
+      <Footer  logo={data.logo}/> 
     </Layout>
   </div>
 );

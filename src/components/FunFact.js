@@ -1,18 +1,8 @@
 import React, { useState } from "react";
 
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
 
 const FunFact = () => {
-  const [counter, setCounter] = useState({
-    startCounter: false,
-  });
 
-  const onVisibilityChange = (isVisible) => {
-    if (isVisible) {
-      setCounter({ startCounter: true });
-    }
-  };
   return (
     <section className="funfact-one">
       <div className="container">
@@ -20,13 +10,8 @@ const FunFact = () => {
           <div className="col-lg-3 col-md-6">
             <div className="funfact-one__single">
               <h3 className="counter">
-                <VisibilitySensor
-                  onChange={onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
+              
                  <span>0.6s </span>
-                </VisibilitySensor>
               </h3>
               <p>First Content Paint</p>
             </div>
@@ -34,43 +19,25 @@ const FunFact = () => {
           <div className="col-lg-3 col-md-6">
             <div className="funfact-one__single">
               <h3 className="counter">
-                <VisibilitySensor
-                  onChange={onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
-                  <CountUp end={counter.startCounter ? 6400 : 0} />
-                </VisibilitySensor>
+              <span>0.9s </span>
               </h3>
-              <p>Likes</p>
+              <p>Largest Content Paint</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="funfact-one__single">
               <h3 className="counter">
-                <VisibilitySensor
-                  onChange={onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
-                  <CountUp end={counter.startCounter ? 900 : 0} />
-                </VisibilitySensor>
+              <span>1.2s </span>
               </h3>
-              <p>5 Star Rating</p>
+              <p>Time To Inractive</p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="funfact-one__single">
               <h3 className="counter">
-                <VisibilitySensor
-                  onChange={onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
-                  <CountUp end={counter.startCounter ? 266 : 0} />
-                </VisibilitySensor>
+              <span>Speed Index</span>
               </h3>
-              <p>Awards</p>
+              <p>1.3s</p>
             </div>
           </div>
         </div>

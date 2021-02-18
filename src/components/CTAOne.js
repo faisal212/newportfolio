@@ -41,7 +41,7 @@ const CTAOne = ({bannerMoc2}) => {
                   We are using reactjs for front end , node koa.js for backend graphql api and mongodb for database
                 </li>
               </ul>
-              <a href="#" className="thm-btn cta-one__btn">
+              <a href="https://tawakalautos.com/" target="_blank" className="thm-btn cta-one__btn">
                 <span>Discover More</span>
               </a>
             </div>

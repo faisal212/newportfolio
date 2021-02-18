@@ -64,7 +64,7 @@ const Banner = ({ bannerShape, bannerMoc }) => {
                 All in One Solution ,Fastest Ecommerce web app but can be
                 <br /> download as window,ios and android app.
               </p>
-              <a href="#" className="thm-btn banner-one__btn">
+              <a href="https://tawakalautos.com/" target="_blank" className="thm-btn banner-one__btn">
                 <span>Discover More</span>
               </a>
             </div>
