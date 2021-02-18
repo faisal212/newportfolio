@@ -36,6 +36,7 @@ const HomePage = ({data}) => (
       <Header
         btnClass="main-nav__btn"
         extraClassName="site-header-one__fixed-top"
+        logo={data.logo}
       />
       <MobileMenu />
       <Banner  bannerMoc={data.bannerMoc}     bannerShape={data.bannerShape}/>
@@ -59,6 +60,14 @@ query{
   bannerShape:file(relativePath: { eq: "shapes/banner-shape-1-1.png" }) {
     childImageSharp {
       fluid(maxWidth:1008) {
+        ...GatsbyImageSharpFluid_withWebp_tracedSVG 
+      }
+    }
+  }
+  
+  logo:file(relativePath: { eq: "logo.png" }) {
+    childImageSharp {
+      fluid(maxWidth:129,quality:90) {
         ...GatsbyImageSharpFluid_withWebp_tracedSVG 
       }
     }

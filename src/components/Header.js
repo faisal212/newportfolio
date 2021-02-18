@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavLinks from "./NavLinks";
 
-import LogoImage from "../assets/images/logo-1-1.png";
+import GatsbyImage from "gatsby-image";
 
 const HeaderHome = (props) => {
   const [sticky, setSticky] = useState(false);
@@ -52,7 +52,7 @@ const HeaderHome = (props) => {
       <div className="container-fluid">
         <div className="site-header-one__logo">
           <a href="/">
-            <img src={LogoImage} width="129" alt="" />
+            <GatsbyImage fluid={props.logo.childImageSharp.fluid}/>
           </a>
           <span className="side-menu__toggler">
             <i className="fa fa-bars"></i>

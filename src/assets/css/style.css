@@ -622,7 +622,9 @@ a:visited {
     margin-right: auto;
   }
 }
-
+.site-header-one__logo{
+  width: 129px;
+}
 .site-header-one__logo .side-menu__toggler {
   display: none;
   font-size: 22px;

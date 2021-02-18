@@ -53,7 +53,7 @@ const Banner = ({ bannerShape, bannerMoc }) => {
               >
                 <input type="text" name="email" placeholder="Email address" />
                 <button type="submit" className="thm-btn banner-one__mc-btn">
-                  <span>Free Trial</span>
+                  <span>Check</span>
                 </button>
               </form>
               <div className="mc-form__response"></div>

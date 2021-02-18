@@ -311,6 +311,10 @@
     -webkit-box-pack: justify;
     justify-content: space-between;
   }
+  .site-header-one__logo a{
+    display: block;
+    width: 129px;
+  }
 
   .banner-one__bg {
     display: none;
