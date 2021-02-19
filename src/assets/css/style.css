@@ -2502,10 +2502,12 @@ a:visited {
   padding-bottom: 120px;
   position: relative;
 }
+/* purgecss start ignore */
 
 [class*="contact-one__bg-shape"] {
   position: absolute;
 }
+/* purgecss end ignore */
 
 .contact-one__bg-shape-1 {
   bottom: 90px;
@@ -2833,10 +2835,12 @@ a:visited {
   padding-top: 85px;
   margin-bottom: 200px;
 }
+/* purgecss start ignore */
 
 [class*="cta-one__bg-shape-"] {
   position: absolute;
 }
+/* purgecss end ignore */
 
 .cta-one__bg-shape-1 {
   bottom: -60px;
@@ -4411,12 +4415,14 @@ a:visited {
   background-image: url(../images/shapes/faq-dot-1-1.png);
   background-position: bottom center;
 }
+/* purgecss start ignore */
 
 [class*="faq-one__bg-shape-"] {
   position: absolute;
   top: -220px;
   left: 0;
 }
+/* purgecss end ignore */
 
 .faq-one::before {
   content: "";

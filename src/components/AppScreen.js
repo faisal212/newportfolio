@@ -1,5 +1,5 @@
 import React,{useEffect} from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import SwiperCore, { Pagination } from "swiper";
 import Swiper from "react-id-swiper";
 import BlockTitle from "./BlockTitle";

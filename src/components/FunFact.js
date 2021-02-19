@@ -35,9 +35,9 @@ const FunFact = () => {
           <div className="col-lg-3 col-md-6">
             <div className="funfact-one__single">
               <h3 className="counter">
-              <span>Speed Index</span>
+              <span>1.3s</span>
               </h3>
-              <p>1.3s</p>
+              <p>Speed Index </p>
             </div>
           </div>
         </div>

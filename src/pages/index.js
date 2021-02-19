@@ -3,7 +3,7 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/css/apton-icons.css";
 import "../assets/css/animate.min.css";
-import "swiper/swiper-bundle.min.css";
+import "../assets/css/swiper.css";
 import "../assets/css/fontawesome-all.min.css";
 import "../assets/css/style.css";
 import "../assets/css/responsive.css";
@@ -20,10 +20,7 @@ import Contact from "../components/Contact";
 import Services from "../components/Services";
 import CTAOne from "../components/CTAOne";
 import FunFact from "../components/FunFact";
-import CTATwo from "../components/CTATwo";
-import Team from "../components/Team";
 import Pricing from "../components/Pricing";
-import VideoOne from "../components/VideoOne";
 import AppScreen from "../components/AppScreen";
 import FAQ from "../components/FAQ";
 // import Clients from "../components/Clients";
@@ -96,6 +93,7 @@ query{
   appScreens:  allFile(filter: {relativeDirectory: {eq: "screens"}}) {
     edges {
       node {
+        id
         childImageSharp{
 						fluid(maxWidth: 289,quality:75){
               ...GatsbyImageSharpFluid_withWebp_tracedSVG 
