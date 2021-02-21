@@ -180,6 +180,7 @@ a:visited {
   white-space: pre-line;
   font-weight: bold;
   margin-top: 5px;
+  position: relative;
 }
 
 .bootstrap-select .btn-light:not(:disabled):not(.disabled).active,

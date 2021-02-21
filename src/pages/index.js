@@ -29,7 +29,7 @@ import FAQ from "../components/FAQ";
 const HomePage = ({data}) => (
   <div>
 
-    <Layout pageTitle="volatile commerce | Home Page">
+    <Layout pageTitle="Volatile Commerce | Home Page">
       <Header
         btnClass="main-nav__btn"
         extraClassName="site-header-one__fixed-top"

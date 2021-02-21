@@ -16,8 +16,8 @@ const FAQ = (props) => {
         />
         <div className="accrodion-grp faq-accrodion">
           <AccordionItem
-            title="Does volatile commerce Allow To Manage Product Variants?"
-            content="Yes volatile commerce Allow you to manage the products variants and inventory."
+            title="Does Volatile Commerce Allow To Manage Product Variants?"
+            content="Yes Volatile Commerce Allow you to manage the products variants and inventory."
             status={false}
           />
           <AccordionItem
@@ -26,8 +26,8 @@ const FAQ = (props) => {
             status={true}
           />
           <AccordionItem
-            title="Does volatile commerce also have native apps?"
-            content="volatile commerce is an pure web app but it can be downnload as an ios and android app through browser, we can also submit in on playstore and we challange our web app is faster than native apps also"
+            title="Does Volatile Commerce also have native apps?"
+            content="Volatile Commerce is an pure web app but it can be downnload as an ios and android app through browser, we can also submit in on playstore and we challange our web app is faster than native apps also"
             status={false}
           />
 
